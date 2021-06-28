@@ -160,10 +160,31 @@ div h4{
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+
+.immagine1, .immagine2, .immagine3{
+    background-size: cover;
+    background-position: center;
+}
+
+.immagine1{
+    background-image: url(../img/img-1.jpg) ;
+    background-position-y: 40%;
+}
+
+
+.immagine2{
+    background-image: url(../img/banner-2.jpg) ;
+}
+
+.immagine3{
+    background-image: url(../img/img-3.jpg) ;
+  }
+
 /* Footer */
+
 footer {
     text-align: center;
 	height: 30px;
     margin-top: 50px;
 }
-
