@@ -124,7 +124,7 @@ ul a{
 }
 
 .col-60 {
-    width: calc(50% - 30px);
+    width: calc(60% - 20px);
     margin: 0, 5px;
     }    
 
@@ -139,17 +139,6 @@ ul a{
     overflow: hidden;
 }
 
-div h4{
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-/* Footer */
-footer {
-    text-align: center;
-	height: 30px;
-    margin-top: 5px;
-}
-
 .margin-bottom30{
     margin-bottom: 30px;
 }
@@ -158,3 +147,23 @@ footer {
 .div, p{
     color: rgba(0,0,0,0.5);
 }
+
+.heart{
+    color: red;
+}
+
+.heart::after{
+    content: "\2665";
+}
+
+div h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Footer */
+footer {
+    text-align: center;
+	height: 30px;
+    margin-top: 50px;
+}
+
