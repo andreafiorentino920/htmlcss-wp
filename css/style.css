@@ -51,9 +51,13 @@ ul a{
 }
 
 /* Main  */
-.box{
+.hero{
     height: 400px;
     margin-bottom: 20px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 0,0;
+    background-size: cover;
     }
 
 .yellow{
